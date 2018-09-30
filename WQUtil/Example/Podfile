@@ -1,3 +1,8 @@
+#官方Cocoapods的源
+source 'https://github.com/CocoaPods/Specs.git'
+#本地私有源
+source 'https://github.com/WQiOS/PodSpec.git'
+
 use_frameworks!
 
 target 'WQUtil_Example' do
