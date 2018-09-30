@@ -15,11 +15,11 @@ Pod::Spec.new do |s|
   s.dependency 'YYModel'
 
   s.subspec 'Category' do |category|
-    category.source_files = 'WQUtil/Classes/Category/*.{h,m}'
+    category.source_files = "WQUtil/Classes/Category/*.{h,m}"
   end
 
   s.subspec 'Networking' do |networking|
-    networking.source_files = 'WQUtil/Classes/Networking/*.{h,m}'
+    networking.source_files = "WQUtil/Classes/Networking/*.{h,m}"
   end
 
 end
