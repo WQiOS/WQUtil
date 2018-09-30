@@ -1,0 +1,11 @@
+use_frameworks!
+
+target 'WQUtil_Example' do
+  pod 'WQUtil', :path => '../'
+
+  target 'WQUtil_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end

@@ -1,0 +1,49 @@
+PODS:
+  - AFNetworking (3.2.1):
+    - AFNetworking/NSURLSession (= 3.2.1)
+    - AFNetworking/Reachability (= 3.2.1)
+    - AFNetworking/Security (= 3.2.1)
+    - AFNetworking/Serialization (= 3.2.1)
+    - AFNetworking/UIKit (= 3.2.1)
+  - AFNetworking/NSURLSession (3.2.1):
+    - AFNetworking/Reachability
+    - AFNetworking/Security
+    - AFNetworking/Serialization
+  - AFNetworking/Reachability (3.2.1)
+  - AFNetworking/Security (3.2.1)
+  - AFNetworking/Serialization (3.2.1)
+  - AFNetworking/UIKit (3.2.1):
+    - AFNetworking/NSURLSession
+  - WQUtil (0.0.1):
+    - AFNetworking
+    - WQUtil/Category (= 0.0.1)
+    - WQUtil/Networking (= 0.0.1)
+    - YYModel
+  - WQUtil/Category (0.0.1):
+    - AFNetworking
+    - YYModel
+  - WQUtil/Networking (0.0.1):
+    - AFNetworking
+    - YYModel
+  - YYModel (1.0.4)
+
+DEPENDENCIES:
+  - WQUtil (from `../`)
+
+SPEC REPOS:
+  https://github.com/cocoapods/specs.git:
+    - AFNetworking
+    - YYModel
+
+EXTERNAL SOURCES:
+  WQUtil:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  AFNetworking: b6f891fdfaed196b46c7a83cf209e09697b94057
+  WQUtil: e348a8ca9bf3ecb65c34a1961e5ce4168b465028
+  YYModel: 2a7fdd96aaa4b86a824e26d0c517de8928c04b30
+
+PODFILE CHECKSUM: 4a0cf591cf6eb523aa7cfc08e1bbcaecb54f444d
+
+COCOAPODS: 1.6.0.beta.1
