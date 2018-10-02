@@ -12,6 +12,8 @@ Pod::Spec.new do |s|
   s.dependency 'AFNetworking'
   s.dependency 'YYModel'
 
+  s.ios.framework  = 'UIKit'
+
   s.public_header_files = 'WQUtil/Classes/*.h'
 
   s.subspec 'Category' do |category|
