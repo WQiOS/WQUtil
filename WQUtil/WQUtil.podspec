@@ -9,10 +9,17 @@ Pod::Spec.new do |s|
   s.source           = { :git => 'https://github.com/wq1570375769/WQUtil.git', :tag => s.version.to_s }
   s.ios.deployment_target = '8.0'
 
-  s.source_files = 'WQUtil/Classes/*.{h,m}'
-
   s.dependency 'AFNetworking'
   s.dependency 'YYModel'
 
+  s.public_header_files = 'WQUtil/Classes/*.h'
+
+  s.subspec 'Category' do |category|
+    category.source_files = 'WQUtil/Classes/Category/*.{h,m}'
+  end
+
+  s.subspec 'Networking' do |networking|
+    networking.source_files = 'WQUtil/Classes/Networking/*.{h,m}'
+  end
 
 end

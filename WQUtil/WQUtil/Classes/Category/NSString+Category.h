@@ -6,6 +6,7 @@
 //
 
 #import <Foundation/Foundation.h>
+#import <UIKit/UIKit.h>
 
 typedef NS_ENUM(NSUInteger , TimeHandleType) {
     TimeHandleDefaultType = 0, //yyy-MM-dd HH:mm:ss，返回 yyy年MM月dd日 HH时mm分ss秒
